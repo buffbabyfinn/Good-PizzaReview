@@ -1,0 +1,19 @@
+.sizeSelect {
+  width: 50%;
+  padding-left: 25%;
+}
+.topping {
+  width: 75%
+}
+ul {
+  list-style-type: none !important;
+  font-size: 20px;
+  font-family: monospace;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #8968CD;
+}
+.jumbotron p {
+  font-weight: bold;
+}

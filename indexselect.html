@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Build Your Own PizzMoTron!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Build Your Own Sloppy Goddamn Mess!</h1>
+        <p>Finally you can stuff your face with only exactly the ingredients you want! With a base of a pan pizza crust, marinara sauce, and cheese, you can take off into pizza paradise by adding whatever else you could possibly desire!</p>
+      </div>
+<!-- /Heading-->
+
+    <div class ="container-fluid"> <!-- Input Container -->
+<!-- Form Size -->
+      <form>
+        <div class="form-group sizeSelect">
+          <label>First, what size do you want:</label>
+            <select class="form-control" id="sizePick">
+              <option>GIANT</option>
+              <option>BEASTLY</option>
+              <option>REALLY KIND OF ABSURD</option>
+            </select>
+        </div>
+      </form>
+    </div>
+
+<!-- Form Toppings -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form>
+            <div class="form-group toppingsCheckbox">
+              <label>Next, what sloppy pile of meat and veg do you want us to slap on there?: (Choose up to 5!)</label><br>
+                <select class="form-control topping" id="toppingsPick1">
+                  <br><option>NOTHING</option>
+                  <br><option>BISON</option>
+                  <br><option>A WHOLE LOT OF GARLIC</option>
+                  <br><option>HABENERO</option>
+                  <br><option>STILTON</option>
+                  <br><option>REALLY STINKY ONIONS</option>
+                  <br><option>CARP</option>
+                  <br><option>NATTO</option>
+                  <br><option>MANANA PEPPERS</option>
+                  <br><option>PINEAPPLE</option>
+                  <br><option>BACONBACONBACON</option>
+                  <br><option>I DUNNO SOME GREEN STUFF...WHATEVER</option>
+                  <br><option>MOOSE</option>
+                </select>
+                <select class="form-control topping" id="toppingsPick2">
+                  <br><option>NOTHING</option>
+                  <br><option >BISON</option>
+                  <br><option>A WHOLE LOT OF GARLIC</option>
+                  <br><option>HABENERO</option>
+                  <br><option>STILTON</option>
+                  <br><option>REALLY STINKY ONIONS</option>
+                  <br><option>CARP</option>
+                  <br><option>NATTO</option>
+                  <br><option>MANANA PEPPERS</option>
+                  <br><option>PINEAPPLE</option>
+                  <br><option>BACONBACONBACON</option>
+                  <br><option>I DUNNO SOME GREEN STUFF...WHATEVER</option>
+                  <br><option>MOOSE</option>
+                </select>
+                <select class="form-control topping" id="toppingsPick3">
+                  <br><option>NOTHING</option>
+                  <br><option>BISON</option>
+                  <br><option>A WHOLE LOT OF GARLIC</option>
+                  <br><option>HABENERO</option>
+                  <br><option>STILTON</option>
+                  <br><option>REALLY STINKY ONIONS</option>
+                  <br><option>CARP</option>
+                  <br><option>NATTO</option>
+                  <br><option>MANANA PEPPERS</option>
+                  <br><option>PINEAPPLE</option>
+                  <br><option>BACONBACONBACON</option>
+                  <br><option>I DUNNO SOME GREEN STUFF...WHATEVER</option>
+                  <br><option>MOOSE</option>
+                </select>
+                <select class="form-control topping" id="toppingsPick4">
+                  <br><option>NOTHING</option>
+                  <br><option>BISON</option>
+                  <br><option>A WHOLE LOT OF GARLIC</option>
+                  <br><option>HABENERO</option>
+                  <br><option>STILTON</option>
+                  <br><option>REALLY STINKY ONIONS</option>
+                  <br><option>CARP</option>
+                  <br><option>NATTO</option>
+                  <br><option>MANANA PEPPERS</option>
+                  <br><option>PINEAPPLE</option>
+                  <br><option>BACONBACONBACON</option>
+                  <br><option>I DUNNO SOME GREEN STUFF...WHATEVER</option>
+                  <br><option>MOOSE</option>
+                </select>
+                <select class="form-control topping" id="toppingsPick5">
+                  <br><option>NOTHING</option>
+                  <br><option>BISON</option>
+                  <br><option>A WHOLE LOT OF GARLIC</option>
+                  <br><option>HABENERO</option>
+                  <br><option>STILTON</option>
+                  <br><option>REALLY STINKY ONIONS</option>
+                  <br><option>CARP</option>
+                  <br><option>NATTO</option>
+                  <br><option>MANANA PEPPERS</option>
+                  <br><option>PINEAPPLE</option>
+                  <br><option>BACONBACONBACON</option>
+                  <br><option>I DUNNO SOME GREEN STUFF...WHATEVER</option>
+                  <br><option>MOOSE</option>
+                </select>
+            </div>
+            <button class="btn btn-danger btn-lg" type="submit" id="buyPizza">Show Me My Za!</button>
+          </form>
+        </div>
+      </div>
+    </div>  <!-- /Input Container -->
+
+    <div>  <!-- Output Container -->
+      <p>
+        <ul id="pizzaOutput"></ul>
+      </p>
+    </div>  <!-- /Output Container -->
+
+  </body>
+</html>
