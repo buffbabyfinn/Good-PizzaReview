@@ -16,6 +16,7 @@ ul {
 .jumbotron {
   text-align: center;
   background-color: #8968CD;
+  margin-top: 15px;
 }
 .jumbotron p {
   font-weight: bold;
@@ -28,5 +29,8 @@ label {
 }
 .menu {
   font-size: 16px;
+  padding-top: 60px;
+}
+.pizImage {
   padding-top: 60px;
 }
