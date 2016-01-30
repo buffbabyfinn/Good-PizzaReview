@@ -1,45 +1,48 @@
-# WARNING - DO NOT CLONE. 
-# DOWNLOAD ZIP INSTEAD
-#### If you clone, it will list me as a contributor and retain all the old commits, and you don't want that. Download Zip instead then change folder name.
 
-=========
-# insertApplicationName
+# SloppyZa Pizza Creator
 
-#### briefDescription, dateOfCurrentVersion_
+#### This site takes user input to print out a variable reciept for a pizza order , Jan 29, 2016.
 
-#### By _**insertContributorNumberOne, insertContributorNumberTwo **_
+#### By _**Megan Fayer**_
 
 ## Description
 
-_insertDetailedDescriptionsOfApplication_
+_The user can input the size of one pizza he or she would like to order, and up to five toppings. The site calculates the price of the pizza, a list of the toppings the user has chosen, and an estimated cook time for their pizza._
 
-## Setup/Installation Requirements
+## Project Includes:
 
-* _list_
-* _all_
-* _requirements_
+* _index.html_
+* _scripts.js_
+* _specs.js_
+* _styles.css_
+* _jQuery 1.12.0_
+* _Mocha files_
+* _Chai files_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{If you run into any issues or bugs with my code, feel free to email me [here]. Or if you'd like to help contribute or refactor my code, contact me at my [GitHub]. }_
 
 ## Technologies Used
 
-* _list_
-* _all_
-* _tech_
-* _used_
+* _HTML_
+* _JavaScript_
+* _CSS_
+* _jQuery_
+* _Apple/Mac_
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+
 
 ### License
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **By insertContributorsHere**
+Copyright (c) 2016 **By Megan Fayer**
+
+==================================
+
+Contact the author at: [mefayer@gmail.com]
+
+[here]: <mailto:mefayer@gmail.com>
+[GitHub]: <https://github.com/buffbabyfinn>

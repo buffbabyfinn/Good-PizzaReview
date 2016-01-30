@@ -1,13 +1,16 @@
+body {
+background-color: #D9D9F3;
+}
 .sizeSelect {
-  width: 50%;
-  padding-left: 25%;
+  width: 60%;
+  padding-left: 30%;
 }
 .topping {
   width: 75%
 }
 ul {
   list-style-type: none !important;
-  font-size: 20px;
+  font-size: 22px;
   font-family: monospace;
 }
 .jumbotron {
@@ -16,4 +19,14 @@ ul {
 }
 .jumbotron p {
   font-weight: bold;
+}
+#buyPizza {
+  margin-bottom: 25px;
+}
+label {
+  font-size: 18px;
+}
+.menu {
+  font-size: 16px;
+  padding-top: 60px;
 }

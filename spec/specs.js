@@ -20,7 +20,7 @@ describe('Pizza' , function() {
   });
 
   it("calculates a price based on the number of toppings added.", function(){
-    var testPizza = new Pizza("giant", "pepperoni", "none", "tomato", "NOTHING", "mushroom")
+    var testPizza = new Pizza("giant", "pepperoni", "NOTHING", "tomato", "NOTHING", "mushroom")
       expect(testPizza.toppingsPrice()).to.equal(24);
   });
   it("returns your total and order", function(){

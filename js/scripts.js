@@ -1,6 +1,5 @@
 
 var Pizza = function(pizzaSize, toppings1, toppings2, toppings3, toppings4, toppings5) {
-// debugger;
   this.pizzaSize = pizzaSize;
   this.toppings1 = toppings1;
   this.toppings2 = toppings2;
@@ -14,7 +13,6 @@ Pizza.prototype.pizzaOrder = function() {
 }
 
 Pizza.prototype.sizePrice = function() {
-// debugger;
   var setPrice = 18
     if (this.pizzaSize === "absurd") {
       return setPrice + 6;
@@ -26,7 +24,6 @@ Pizza.prototype.sizePrice = function() {
 }
 
 Pizza.prototype.toppingsPrice = function() {
-// debugger;
   var setTPrice = this.sizePrice();
     if (this.toppings1 === "NOTHING") {
       var setTPrice1 = setTPrice;
@@ -61,24 +58,30 @@ Pizza.prototype.pizzaTotalPrice = function() {
   return this.pizzaOrder() + " Your total today is $" + this.toppingsPrice() + ".00. Thanks and enjoy your Sloppy Goddamn Mess!";
 }
 
+Pizza.prototype.pizzaTime = function() {
+    var pizzaTimer = [Math.floor(Math.random() * (300 - 70 + 1)) + 70];
+    return "Our tasty pies take time. Yours will be ready in " + pizzaTimer + " minutes. Get ready for some slop!"
+}
+
 
 $(document).ready(function() {
   $("#buyPizza").click(function(event) {
-  // debugger;
+  debugger;
     event.preventDefault();
 
     var pSizeInput = $("select#sizePick").val();
-    var top1Input = $("select#toppingsPick1").val();
-    var top2Input = $("select#toppingsPick2").val();
-    var top3Input = $("select#toppingsPick3").val();
-    var top4Input = $("select#toppingsPick4").val();
-    var top5Input = $("select#toppingsPick5").val();
+    var top1Input = $("select#toppingsPick1").val().toLowerCase();
+    var top2Input = $("select#toppingsPick2").val().toLowerCase();
+    var top3Input = $("select#toppingsPick3").val().toLowerCase();
+    var top4Input = $("select#toppingsPick4").val().toLowerCase();
+    var top5Input = $("select#toppingsPick5").val().toLowerCase();
 
     var newPizza = new Pizza(pSizeInput, top1Input, top2Input, top3Input, top4Input, top5Input);
 
     $("#pizzaOutput").empty();
-    $("#priceOutput").empty();
-    $("#pizzaOutput").append(newPizza.pizzaTotalPrice()).toLowerCase;
+    $("#timeOutput").empty();
+    $("#pizzaOutput").append(newPizza.pizzaTotalPrice());
+    $("#timeOutput").append(newPizza.pizzaTime());
 
   });
 });
